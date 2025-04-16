@@ -8,11 +8,11 @@ int igualdade(int x, int y) {
     }
 }
 
-void retornaNumero(void) {
+int retornaNumero(void) {
     int x = 0;
     printf("Digite um número: ");
     scanf("%d", &x);
-    printf("O número digitado foi: %d\n", x);
+    return x;
 }
 
 int maior(int x, int y){
